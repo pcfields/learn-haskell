@@ -1,0 +1,40 @@
+# Stack build directory
+.stack-work/
+
+# Cabal build directories
+dist/
+dist-*/
+
+# Cabal sandbox configuration
+.cabal-sandbox/
+cabal.sandbox.config
+
+# GHC-specific files
+*.o
+*.hi
+*.dyn_o
+*.dyn_hi
+.hpc
+
+# Profiling and debugging files
+*.prof
+*.aux
+*.hp
+*.eventlog
+
+# Temporary files and editor backups
+*~
+*.swp
+*.swo
+
+# Environment and local configuration files
+.ghc.environment.*
+cabal.project.local
+cabal.project.local~
+
+# Haskell Test Framework files
+.HTF/
+
+# Miscellaneous
+.hsenv/
+.DS_Store
