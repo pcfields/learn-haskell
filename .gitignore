@@ -10,6 +10,15 @@
 *.lib
 *.dylib
 
+
+# A way to ignore binary files 
+# Ignore all files without extensions
+*
+# Unignore all files with extensions
+!*.*
+# Unignore all directories
+!*/
+
 # Stack build directory
 .stack-work/
 
