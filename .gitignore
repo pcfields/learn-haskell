@@ -1,3 +1,15 @@
+# Git ignore file for Haskell projects
+ 
+# Common binary files
+*.exe
+*.dll
+*.so
+*.bin
+*.o
+*.a
+*.lib
+*.dylib
+
 # Stack build directory
 .stack-work/
 
